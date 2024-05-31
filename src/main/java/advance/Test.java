@@ -1,6 +1,6 @@
 package advance;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
         Rectangle room1 = new Rectangle(10,20);
         double area = room1.calculateRectangleArea();
