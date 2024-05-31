@@ -1,7 +1,9 @@
 package basic;
+import advance.Employee;
+
 import java.util.Scanner;
 
-public class calculator {
+public class Calculator extends Employee {
     public static void main(String[] arg) {
         System.out.println("Please enter the first number : ");
         Scanner scanner = new Scanner(System.in);
@@ -17,7 +19,9 @@ public class calculator {
         double divisionResult = division(number1, number2);
         System.out.println("Division Result: " + divisionResult);
         scanner.close();
-
+        //Calculator calculator = new Calculator();
+        //static and non static problem checking
+        //System.out.println(calculator.test(10));
     }
     private static int subtract(int number1, int number2) {
         int sub = number1 - number2;
@@ -34,5 +38,8 @@ public class calculator {
     public static double division(int number1,int number2) {
         double div = (float) number1 / number2;
         return div;
+    }
+    double test(int number) {
+        return number*number;
     }
 }

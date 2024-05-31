@@ -1,7 +1,6 @@
 package paymentCalculation;
 
-import static basic.calculator.addition;
-import static basic.calculator.multiplication;
+import static basic.Calculator.addition;
 
 public class employeePayment {
     public static void main(String[] arg) {
